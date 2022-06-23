@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Header*/
+nav{
+    width: 100%;
+    height: 50px;
+    background-color:rgb(73, 73, 73);
+    opacity: .75;
+}
+nav p{
+    float:left;
+    padding: 0px 80px 0px 30px;
+}
+nav p a{
+    font-family: monospace;
+    color: #ffffff;
+    font-size: 40px;
+    line-height: ;
+    text-decoration: none;
+}
+nav ul{
+    float: right;
+    padding: 0px 50px;
+}
+nav ul li{
+    float:left;
+    list-style: none;
+    position: relative;
+}
+nav ul li a{
+    display: block;
+    width: 130px;
+    height: 50px;
+    background-color:rgb(30, 30, 37);
+    font-family: monospace;
+    color: #ffffff;
+    font-size: 14px;
+    padding: 17px 20px;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    background-color: cadetblue;
+    transition: all .3s;
+}
+nav ul li ul{
+    display: none;
+    background-color:darkblue;
+    padding: 10px;
+    position:absolute;
+    border-radius: 0px 0px 10px 10px;
+}
+nav ul li:hover ul{
+    display: block;
+}
+nav ul li ul li {
+    width: 140px;
+}
+nav ul li ul li a{
+    padding:  10px 5px;
+}
+nav ul li ul li a:hover{
+    background-color:cadetblue;
+    transition: all .3s;
+}
+
+/*Hero Image*/
+.hero {
+    background-image: url(004.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+/*Main Page Slogan*/
+.slogan {
+    color: #ffffff;
+    font-family:monospace;
+    font-size: 100px;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 25vh;
+}
+
+/*Enter Button*/
+.entrance{
+    display: block;
+    width: 280px;
+    color: #ffffff;
+    text-decoration: none;
+    margin: auto;
+}
+.entrance:hover{
+    color:darkslateblue;
+    text-decoration: none;
+}
+.button {
+    border: 3px solid #ffffff;
+    font-size: 30px;
+    width: 280px;
+    text-align: center;
+    margin: 40px auto 0 auto;
+    padding: 15px 0;
+    border-radius: 20px;
+    transition: all .3s;
+}
+.button:hover {
+    background-color: #ffffff;
+}
+
+/*Banner Image*/
+.banner {
+    background-image: url(004.jpg);
+    height: 80vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+/*Sub-Page Title*/
+.title {
+    color: #ffffff;
+    font-family:monospace;
+    font-size: 48px;
+    text-align: center;
+    padding-top: 32vh;
+}
+
+/*Gallery*/
+.container{
+    text-align: center;
+    font-size: 15px;
+    line-height: 100px;
+    font-family: monospace;
+    color:#333333;
+}
+.gallery{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.gallery-img{
+    padding: 10px 10px 10px;
+}
+img{
+    width: 400px;
+}
+img:hover{
+    opacity: .5;
+    transition: all .75s;
+}
+.text{
+    padding: 10px 10px 5px 10px;
+    text-align: center;
+    font-size: 15px;
+}
+
+/*Footer*/
+footer{
+    padding: 30px;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #ffffff;
+    color: darkgray;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+}
+
+/*Banner Image*/
+.banner2 {
+    background-image: url(005.jpg);
+    height: 80vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+/*Gallery*/
+.container1{
+    text-align: center;
+    font-size: 15px;
+    line-height: 50px;
+    font-family: monospace;
+    color:#333333;
+}
+
+.gallery-img2{
+    padding: 50px 10px 10px;
+}
+
+.text1{
+    padding: 20px 10px 20px 10px;
+    text-align: center;
+    font-size: 30px;
+}
+.text2{
+    padding: 0px 10px 0px 10px;
+    text-align: center;
+    font-size: 17px;
+}
+.box
+{
+    background-color: #333333;
+    color:#ffffff;
+    font-family: sans-serif;
+padding: 10px;
+overflow: hidden;
+
+}
+
+.text3
+{
+    white-space: nowrap;
+animation: run 3s infinite;
+
+
+    
+}
+
+@keyframes run{
+    from{
+        transform: translateX(o);
+    }
+    to{
+        transform: translateX(-1500px);
+    }
+}
